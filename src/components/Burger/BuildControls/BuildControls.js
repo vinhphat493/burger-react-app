@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './BuildControls.css';
 
 import BuildControl from './BuildControl/BuildControl';
-import Aux from '../../../hoc/Auxiliary';
+import Aux from "../../../hoc/Auxiliary/Auxiliary";
 
 const controls = [
   { lable: "Salad", type: "salad" },
