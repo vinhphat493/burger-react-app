@@ -12,12 +12,12 @@ const Burger = props => {
     })
   ).reduce((arr,el)=>arr.concat(el),[]);
 
-  console.log(transferIngredient);
-
   return (
     <div className={classes.Burger}>
       <BurgerIngredient type="bread-top" />
-        {transferIngredient.length ? transferIngredient : 'Please insert ingredient....'}
+      {transferIngredient.length
+        ? transferIngredient
+        : "Please insert ingredient...."}
       <BurgerIngredient type="bread-bottom" />
     </div>
   );
